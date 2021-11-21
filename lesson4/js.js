@@ -1,9 +1,11 @@
 /*// - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-function formula( a, b ) {
-  return (a * b)
-}
-let formula1 = formula(10,5);
-console.log(formula1);*/
+
+function area(a,b) {
+
+  return (a *b)
+    }
+    let area1 = area(10,5);
+console.log(area1);*/
 
 /*// - створити функцію яка обчислює та повертає площу кола з радіусом r
 
@@ -59,12 +61,27 @@ function createUl(text, elementLi) {
 createUl('Lorem ipsum dolor sit amet.', 3);
 */
 
-// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+/*// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+function arr(array) {
 
-function array(a,b,c) {
+  document.write(`<ul>`)
+  for (let arrayElement of array) {
+    document.write(`<li>${arrayElement}</li>`)
+  }
+  document.write(`</ul>`)
+}
 
-  document
+arr(['hallo', 321, 9 === 9, 'qwe']);*/
+
+/*// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+
+let object = [{id: 'qwe', name: 'asd', age: 234}, {id: 'ewq', name: 'dsa', age: 4321}, {id: 'uyt',name: 'uio', age: 86}];
+
+function arrayObject (array){
+  for (const arrayElement of array) {
+    document.write(`<div>${arrayElement.id}.${arrayElement.name}.${arrayElement.age}</div>`);
+  }
 
 }
 
-// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+arrayObject(object);*/
