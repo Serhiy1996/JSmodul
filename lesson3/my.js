@@ -88,16 +88,15 @@ for (let arrElement of arr) {
 
 
 
-// - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+/*// - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
 
 
 let arr = ['The Beatles', 1960, 'Aerosmith', 1970, 'The Rolling Stones', 1962, 'АС/DC', 1973, 'Nirvana', 1987];
-while (arr < 10)
-  arr++
-  if (typeof arr ==='number'){
-    console.log(arr)
+for (const arrElement of arr) {
+  if (typeof arrElement === 'string'){
+    console.log(arrElement)
   }
 
+}*/
 
 
-// - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
