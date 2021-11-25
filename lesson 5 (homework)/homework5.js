@@ -37,20 +37,18 @@ let paragraf = (text) => document.write(`<p>${text}</p>`);
 paragraf('Lorem ipsum dolor sit amet.');*/
 
 
-/*
 // - створити функцію яка  створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
-???(показує що все ок але не хоче відпрацьовувати)???
+// ???(показує що все ок але не хоче відпрацьовувати)???
 
 let element = (text, lenghtlLi) => {
   document.write(`<ul>`)
-  for (let i = 0; i < lenghtlLi.length; i++) {
+  for (let i = 0; i < lenghtlLi; i++) {
     document.write(`<li>${text}</li>`)
   }
   document.write(`</ul>`);
 };
 element('Lorem ipsum dolor sit.', 3);
-*/
 
 
 /*// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
