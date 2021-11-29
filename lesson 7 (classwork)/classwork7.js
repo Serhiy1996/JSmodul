@@ -142,7 +142,7 @@ console.log(prinze);
 
 //   За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 
-// ??вроді все добре але вибиває undefind, не можу знайти помилку (те ж саме із додатковим)??
+// ??вроді все добре (звіряв по 'resolve') але вибиває undefind, не можу знайти помилку (те ж саме із додатковим)??
 
 function findCindarella (cinderella, prinze)  {
   for (const cinderellaElement of cinderella) {
