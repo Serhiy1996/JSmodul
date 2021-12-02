@@ -246,7 +246,7 @@ for (const users of usersList) {
   email.innerText = users.email;
 
 
-
+// <<< з адресами ще не докінця закінчи, ломаю голову як вивести об'єкти з ''geo' >>>
 
   let address = document.createElement('ul');
   for (const key in users.address) {
