@@ -6,10 +6,42 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+
+
+  .menu {
+    cursor: pointer;
+  }
+  .menu.hidden ul {
+    display: none;
+  }
+.pHidden{
+  display: none;
+}
+
+  </style>
+
+
 </head>
 <body>
 
-<input type="button" id="hider" value="Нажмите, чтобы спрятать текст" />
+<div id="text"> text </div>
+<input type="button" id="hiden" value="Нажмите, чтобы спрятать текст" />
+<hr>
+
+<input type="text" id="age">
+<input type="button"id="buton" value="перевірити вік">
+<!--<hr>-->
+
+<div class="menu">
+  <h3 class="title"> Список курсів(Click)</h3>
+  <ul>
+    <li>JAVA</li>
+    <li>JS</li>
+    <li>QA</li>
+  </ul>
+</div>
+<hr>
 
 <script src="homework10.js"></script>
 </body>
